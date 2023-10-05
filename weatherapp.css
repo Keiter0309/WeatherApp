@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    color: bisque;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: linear .4s;
+}
+
+#input {
+    border-radius: 16px 8px;
+    transition: linear .2s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+}
+
+#input:focus {
+    border-radius: 8px 16px;
+}
+
+#result {
+    text-align: center;
+    font-size: 3rem;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: linear .4s;
+}
+
+.cold {
+    transition: linear .4s;
+    background-image: url(https://previews.123rf.com/images/dmytro121287/dmytro1212871306/dmytro121287130600006/20278027-weather-icons-snowy-weather-vector-illustration.jpg);
+}
